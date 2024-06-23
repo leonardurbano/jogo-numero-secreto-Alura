@@ -39,7 +39,7 @@ function verificarChute() {
 
 function gerarNumeroAleatorio() {
     
-    let numeroSoteado =  parseInt(Math.random() * 4 + 1);
+    let numeroSoteado =  parseInt(Math.random() * 10 + 1);
 
     if(listNumeroSorteado.length == numeroLimiteListaDeSorteados){
         listNumeroSorteado = [];
